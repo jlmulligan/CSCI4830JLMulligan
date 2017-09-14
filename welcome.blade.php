@@ -53,7 +53,7 @@
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
-                               font-size: 12px;
+                font-size: 12px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -80,8 +80,8 @@
                         <p>NM:<input type="text" class="form-control" id="NAME" name="NAME" required></p>
                         <p>CO:<input type="text" class="form-control" id="Company" name="Company"               required></p>
                         <p>PP:<input type="text" class="form-control" id="PreferredPhone" name="PreferredPhone" required></p>
-                        <p>EM:<input type="text" class="form-control" id="Email" name="Email"           required></p>
-                        <p>PA:<input type="text" class="form-control" id="PostalAddress" name="PostalAddress" required></p>
+                        <p>EM:<input type="text" class="form-control" id="Email" name="Email"                   required></p>
+                        <p>PA:<input type="text" class="form-control" id="PostalAddress" name="PostalAddress"   required></p>
                         <p>MT:<input type="text" class="form-control" id="MeetingTime" name="MeetingTime"       required></p>
                         <p>ID:<input type="number" class="form-control" id="id" name="id"                       required></p>
                         <p><input type="submit"/></p>
@@ -108,7 +108,7 @@
                 </thead>
                 <tbody>
                 @foreach ($contacts as $contact)
-                                <tr>
+                <tr>
                 <td>{{  $contact->NAME }}               </td>
                 <td>{{  $contact->Company}}             </td>
                 <td>{{  $contact->PreferredPhone}}      </td>
