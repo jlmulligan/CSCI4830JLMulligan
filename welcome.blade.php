@@ -87,14 +87,15 @@
                         <p><input type="submit"/></p>
                 </form>
         </div>
-        <div class="container">
+<!--        <div class="container">
                 <form method="Get" action"/removeContact">
                 {{csrf_field()}}
-                        <p>ID of Contact You Wish to Remove: <input type="number" class="form-control" id="id" name="id" required>
+                <p>ID of Contact You Wish to Remove: <input type="number" class="form-control" id="id" name="id" required>
                         <input type="submit" /></p>
                 </form>
         </div>
-        <table class="table table-bordered">
+-->
+                <table class="table table-bordered">
                 <thead>
                 <tr>
                 <th>NAME</th>
