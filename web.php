@@ -37,9 +37,9 @@ Route::post('/addContact', function(Request $request) {
         return redirect('/');
 });
 
-Route::get('/removeContact', function(Request $request){
+//Route::get('/removeContact', function(Request $request){
 //      dd($request2);
-        $cID=$request->input('id');
-        DB::table('contact_list')->where('id', '=', $cID)->delete();
-        return redirect('/');
-});
+//        $cID=$request->input('id');
+//        DB::table('contact_list')->where('id', '=', $cID)->delete();
+//        return redirect('/');
+//});
